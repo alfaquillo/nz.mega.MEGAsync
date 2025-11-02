@@ -1,7 +1,7 @@
 id: nz.mega.MEGAsync
 sdk: org.kde.Sdk
 runtime: org.kde.Platform
-runtime-version: 5.15-23.08
+runtime-version: 5.15-24.08
 finish-args:
   - --device=dri
   - --filesystem=~/MEGA:create
@@ -69,8 +69,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/meganz/MEGAsync.git
-        tag: v5.2.1.0_Linux
-        commit: 9937e808ba7eb87949c1d7a15e9b8e122b7ba410
+        tag: v5.12.0.1_Linux
+        commit: 782c10766805021de7efeab6c34794ce097ab140
         x-checker-data:
           type: json
           url: https://api.github.com/repos/meganz/MEGAsync/releases
